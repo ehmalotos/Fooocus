@@ -52,7 +52,7 @@ def dump_english_config(components):
                             all_texts.append(y)
 
     config_dict = {k: k for k in all_texts if k != "" and 'progress-container' not in k}
-    full_name = os.path.abspath(os.path.join(localization_root, 'en.json'))
+    full_name = os.path.abspath(os.path.join(localization_root, 'ru.json'))
 
     with open(full_name, "w", encoding="utf-8") as json_file:
         json.dump(config_dict, json_file, indent=4)
