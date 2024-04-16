@@ -98,8 +98,7 @@ if isinstance(args_manager.args.preset, str):
 shared.gradio_root = gr.Blocks(title=title).queue()
 
 with shared.gradio_root:
-    image_path = "1.png"  # URL вашего изображения
-    image_element = gr.Image(source=image_path, width="300px", height="100px", align="center") 
+
     currentTask = gr.State(worker.AsyncTask(args=[]))
     with gr.Row():
         with gr.Column(scale=2):
