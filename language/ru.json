@@ -1,19 +1,19 @@
 {
     "Preview": "Preview",
     "Gallery": "Gallery",
-    "Generate": "Generate",
-    "Skip": "Skip",
-    "Stop": "Stop",
+    "Generate": "Создать",
+    "Skip": "Пропустить",
+    "Stop": "Стоп",
     "Input Image": "Input Image",
-    "Advanced": "Advanced",
+    "Advanced": "Расширенные настройки",
     "Upscale or Variation": "Upscale or Variation",
-    "Image Prompt": "Image Prompt",
+    "Image Prompt": "Загрузить промт изображение",
     "Inpaint or Outpaint (beta)": "Inpaint or Outpaint (beta)",
     "Drag above image to here": "Drag above image to here",
     "Upscale or Variation:": "Upscale or Variation:",
     "Disabled": "Disabled",
-    "Vary (Subtle)": "Vary (Subtle)",
-    "Vary (Strong)": "Vary (Strong)",
+    "Vary (Subtle)": "Почти одинаково",
+    "Vary (Strong)": "Большая разница",
     "Upscale (1.5x)": "Upscale (1.5x)",
     "Upscale (2x)": "Upscale (2x)",
     "Upscale (Fast 2x)": "Upscale (Fast 2x)",
@@ -386,4 +386,4 @@
     "fooocus (json)": "fooocus (json)",
     "a1111 (plain text)": "a1111 (plain text)",
     "Unsupported image type in input": "Unsupported image type in input"
-}
+  }
