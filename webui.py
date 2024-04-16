@@ -88,8 +88,6 @@ def generate_clicked(task: worker.AsyncTask):
     print(f'Total time: {execution_time:.2f} seconds')
     return
 
-localization_js('ru')
-
 reload_javascript()
 
 title = 'SynergArt 0.1'
