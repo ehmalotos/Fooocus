@@ -99,7 +99,7 @@ shared.gradio_root = gr.Blocks(title=title).queue()
 
 with shared.gradio_root:
     image_path = "https://dec50970-098d-4ea5-b2f6-fb9746ecea9b.selstorage.ru/46db2962f7342a76df61bd1c1408bbf8/upload/fe1b2593a5334bb58cc47addcf698a2f.png"  # URL вашего изображения
-    image_element = gr.Image(source=image_path, width="100%", height="auto", align="center") 
+    image_element = gr.Image(source=image_path, width="300px", height="100px", align="center") 
     currentTask = gr.State(worker.AsyncTask(args=[]))
     with gr.Row():
         with gr.Column(scale=2):
