@@ -705,6 +705,14 @@ with shared.gradio_root:
         desc_btn.click(trigger_describe, inputs=[desc_method, desc_input_image],
                        outputs=[prompt, style_selections], show_progress=True, queue=True)
 
+    with gr.Row(): 
+        with gr.Column(scale=2):
+            with gr.Row():
+                with gr.Column():
+                    gr.Label('Prompt:', interactive=False)
+                    logoSynergy = gr.Image(height=100, width=100)
+ 
+
 
 def dump_default_english_config():
     from modules.localization import dump_english_config
