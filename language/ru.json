@@ -22,7 +22,7 @@
     "Stop At": "Остановить на",
     "Weight": "Важность",
     "Type": "Тип",
-    "Output Format": "Формат", // удалить, если не отображается
+    "Output Format": "Формат",
     "PyraCanny": "PyraCanny",
     "CPDS": "CPDS",
     "* \"Image Prompt\" is powered by Fooocus Image Mixture Engine (v1.0.1).": "* \"Image Prompt\" is powered by Fooocus Image Mixture Engine (v1.0.1).",
